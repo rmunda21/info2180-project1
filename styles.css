@@ -1,13 +1,18 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+.overview-hero{
+    overflow: hidden;
+    background-color: #E2E8F0;
 }
 
 .overview-hero-image img{
@@ -24,6 +29,11 @@ body {
     text-align: left;
 }
 
+header{
+    font-size: 18px;
+    background-color: white;
+}
+
 header .container{
     display: flex;
     justify-content: space-between;
@@ -32,9 +42,18 @@ header .container{
 ul{
     list-style: none;
 }
+
 li{
     float: left;
     padding: 10px;
+}
+
+li a{
+    color: #6b7280;
+}
+
+li a:hover{
+    color: #5A67D8;
 }
 
 img{
@@ -46,8 +65,115 @@ img{
     padding-top: 4%;
 }
 
+.learn-about .container h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
 .cards{
     display: grid;
     grid-template-columns: 35% 35% 35%;
 }
 
+.card{
+    margin-right: 10%;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.cards h3{
+    color:#48BB78 ;
+}
+
+.testing{
+    
+    background-color: #4A5568;
+    color: white;
+    margin-top: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.testing .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta{
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    background-color: #48BB78;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.stories .container img{
+    float: left;
+}
+
+article{
+    padding-bottom: 3%;
+}
+
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.newsletter{
+    background-color: #48BB78;
+    color: white;
+    padding-bottom: 3%;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group{
+    padding-right: 2%;
+}
+
+.form-group input{
+    border: none;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.stories .container h2{
+    color: #5A67D8;
+}
+
+.stories .container a{
+    color: #5A67D8;
+}
+
+.stories .container h3{
+    font-size: 18px;
+}
+
+.stories .container img{
+    width: 200px;
+    margin-right: 5%;
+    border-radius: 100%;
+}
+
+.newsletter .container .btn{
+    border:none;
+    color: white;
+    background-color: #5A67D8;
+}
+
+footer{
+    overflow: hidden;
+    background-color: #4A5568;
+    color: white;
+}

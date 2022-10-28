@@ -1,4 +1,4 @@
-Add your CSS to this file
+/* Add your CSS to this file */
 body {
     margin: 0;
     font-size: 18px;
@@ -112,12 +112,16 @@ img{
     padding-bottom: 2%;
 }
 
+.cta .btn{
+    color: white;
+}
+
 .stories .container img{
     float: left;
 }
 
 article{
-    padding-bottom: 7%;
+    padding-bottom: 3%;
 }
 
 .newsletter .container{

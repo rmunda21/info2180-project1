@@ -16,6 +16,7 @@ window.onload = function(){
         }
         ele.preventDefault()
     })
+    
     function checkEmail(ele){
         if (ele.value == "" || ele.value.length == 0){
             return false
